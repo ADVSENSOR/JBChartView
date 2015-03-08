@@ -12,6 +12,8 @@
 CGFloat const kJBChartTooltipTipViewDefaultWidth = 8.0f;
 CGFloat const kJBChartTooltipTipViewDefaultHeight = 5.0f;
 
+#define kJBColorTooltipColor [UIColor colorWithWhite:1.0 alpha:0.9]
+
 @implementation JBChartTooltipTipView
 
 #pragma mark - Alloc/Init

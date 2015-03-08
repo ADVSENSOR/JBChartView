@@ -16,6 +16,10 @@ CGFloat static const kJBChartTooltipViewCornerRadius = 5.0;
 CGFloat const kJBChartTooltipViewDefaultWidth = 50.0f;
 CGFloat const kJBChartTooltipViewDefaultHeight = 25.0f;
 
+#define kJBColorTooltipColor [UIColor colorWithWhite:1.0 alpha:0.9]
+#define kJBColorTooltipTextColor [UIColor colorWithWhite:49/255.0 alpha:1]
+#define kJBFontTooltipText [UIFont fontWithName:@"HelveticaNeue-Bold" size:14]
+
 @interface JBChartTooltipView ()
 
 @property (nonatomic, strong) UILabel *textLabel;
